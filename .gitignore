@@ -1,0 +1,27 @@
+# Build and test output
+/lobe-device
+/lobe-device-*
+/dist/
+/coverage.out
+*.test
+
+# Local records and runtime state
+.acceptances/
+.records/
+/state/
+/.lobe-device/
+/identity.json
+/identity.lock
+*.log
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+/api-key
+/api-key.*
+*.key
+*.pem
+*.p12
+*.pfx
